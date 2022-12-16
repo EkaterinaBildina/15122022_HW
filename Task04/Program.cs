@@ -14,19 +14,16 @@ int number3 = Convert.ToInt32(Console.ReadLine());
 
 int max = number1;
 
-if (max > number2)
+if (number1 > number2 && number1 > number3)
 {
     max = number1;
 }
-else 
+
+else if (number2 > number1 && number2 > number3)
 {
     max = number2;
 }
 
-if (max > number3)
-{
-    max = number2;
-}
 else 
 {
     max = number3;
